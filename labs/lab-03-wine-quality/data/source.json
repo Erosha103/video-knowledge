@@ -1,0 +1,11 @@
+{
+  "dataset": "rajyellow46/wine-quality",
+  "version": 1,
+  "filename": "winequalityN.csv",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/rajyellow46/wine-quality?datasetVersionNumber=1",
+  "source_page": "https://www.kaggle.com/datasets/rajyellow46/wine-quality",
+  "downloaded_on": "2026-11-26",
+  "size_bytes": 390376,
+  "sha256": "cb01f91c70de066f85d4cffac3bb163e4719523861cd79ba8825b722cf98b48c",
+  "description": "Exact CSV downloaded from the assignment Kaggle dataset, version 1."
+}

@@ -1,0 +1,4 @@
+model,macro_f1_mean,macro_f1_std,accuracy_mean,parameters
+RandomForest,0.28735680736801594,0.003974331896939762,0.5568848228946751,"{""model__class_weight"": ""balanced_subsample"", ""model__min_samples_leaf"": 3}"
+LogisticRegression,0.22979668841614045,0.015109771436784322,0.34553131597466574,"{""model__C"": 10.0}"
+DummyClassifier,0.08766462442398425,0.0004179257707924832,0.4426460239268121,most_frequent

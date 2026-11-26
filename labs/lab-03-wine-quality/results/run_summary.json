@@ -1,0 +1,51 @@
+{
+  "dataset": "rajyellow46/wine-quality",
+  "dataset_version": 1,
+  "sha256": "cb01f91c70de066f85d4cffac3bb163e4719523861cd79ba8825b722cf98b48c",
+  "seed": 42,
+  "raw_rows": 6497,
+  "unique_rows": 5329,
+  "full_duplicates_removed": 1168,
+  "missing_cells": 38,
+  "development_rows": 4263,
+  "test_rows": 1066,
+  "classes": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "chosen_model": "RandomForest",
+  "best_parameters": {
+    "model__class_weight": "balanced_subsample",
+    "model__min_samples_leaf": 3
+  },
+  "cv_macro_f1": 0.28735680736801594,
+  "test_metrics": {
+    "macro_f1": 0.29794645729743646,
+    "balanced_accuracy": 0.28610492149817995,
+    "accuracy": 0.5469043151969981,
+    "mae_points": 0.49624765478424016,
+    "within_one_point": 0.9624765478424016
+  },
+  "baseline_test_metrics": {
+    "macro_f1": 0.08347562132422691,
+    "balanced_accuracy": 0.14285714285714285,
+    "accuracy": 0.41275797373358347,
+    "mae_points": 0.6735459662288931,
+    "within_one_point": 0.9202626641651032
+  },
+  "test_macro_f1_gain": 0.21447083597320954,
+  "goal_passed": true,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7",
+    "joblib": "1.6.0"
+  }
+}
